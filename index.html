@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1 - Média de Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Calculadora de Média</h1>
+        <p>Crie um "Jogo" que calcule a média entre uma quantidade X de números digitados e mostre na tela o resultado.</p>
+        
+        <div class="input-group">
+            <label for="quantidade">Quantos números você quer calcular a média?</label>
+            <input type="number" id="quantidade" min="1" placeholder="Digite a quantidade X">
+            <button id="btnIniciar">Iniciar Jogo</button>
+        </div>
+
+        <div id="campos-numeros">
+            </div>
+
+        <button id="btnCalcular" class="hidden">Calcular Média</button>
+
+        <h2 id="resultado"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
